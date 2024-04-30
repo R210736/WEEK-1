@@ -3,5 +3,5 @@ try:
     y=(input("Enter the denominator"))
     division=float(x)/float(y)
     print("The Division of two numbers is",division)
-except value Error:
+except valueError:
     print("Enter either integers or floats(decimals)")
