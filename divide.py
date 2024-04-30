@@ -1,8 +1,7 @@
-a=float(input("Enter the numerator"))
-b=float(input("Enter the denominator"))
-c=a/b
-if(type(a)==int or float):
-    if(type(b)==int or float):
-        print(c)
-else:
-    print("Entered number is irrational")
+try:
+    x=(input("Enter the numerator"))
+    y=(input("Enter the denominator"))
+    division=float(x)/float(y)
+    print("The Division of two numbers is",division)
+except value Error:
+    print("Enter either integers or floats(decimals)")
